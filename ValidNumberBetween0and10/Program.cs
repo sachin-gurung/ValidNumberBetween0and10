@@ -10,6 +10,16 @@ namespace ValidNumberBetween0and10
     {
         static void Main(string[] args)
         {
+            int num;
+            Console.Write("Enter a number between 0 and 10: ");
+            num = int.Parse(Console.ReadLine());
+            if (num > 0 && num <= 10)
+            {
+                Console.WriteLine("Valid number");
+            }
+            else
+                Console.WriteLine("Invalid number");
+            Console.ReadLine();
         }
     }
 }
