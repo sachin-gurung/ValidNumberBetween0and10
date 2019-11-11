@@ -23,3 +23,16 @@ namespace ValidNumberBetween0and10
         }
     }
 }
+/* 
+Result 1: 
+Enter a number between 0 and 10: 5
+Valid number
+
+Press any key to continue . . .
+
+Result 2: 
+Enter a number between 0 and 10: 56
+Invalid number
+
+Press any key to continue . . .
+*/
